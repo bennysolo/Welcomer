@@ -1,0 +1,29 @@
+{
+  "name": "BennyBOT",
+  "version": "1.0.0",
+  "description": "This Source Code For my APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "imgbb-uploader": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennysolo/BennyBOT.git"
+  },
+  "keywords": [
+    "ganteng"
+  ],
+  "author": "Benny Hidayat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bennysolo/BennyBOT/issues"
+  },
+  "homepage": "https://github.com/bennysolo/BennyBOT/readme"
+}
