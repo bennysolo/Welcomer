@@ -2,7 +2,7 @@ var imgbb = require('imgbb-uploader)
 
 
 
-client.on('group-participants-update', async (anu) => {
+benny.on('group-participants-update', async (anu) => {
 		try {
 			console.log(anu)
 			const group = await benny.groupMetadata(anu.jid)
