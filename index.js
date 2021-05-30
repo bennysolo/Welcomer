@@ -24,7 +24,7 @@ benny.on('group-participants-update', async (anu) => {
 					fs.writeFileSync('janckuk.jpeg', datae, 'base64')
 					var imgbb = require('imgbb-uploader')
 					data = await imgbb("cedeb44b8d204947a6833ca1412ca77d", 'janckuk.jpeg')
-			buffu = await getBaper(`https://api-self.herokuapp.com/docs/canvaswel?name=${encodeURIComponent(pushname)}&img_url=${data.display_url}&gcname=${encodeURIComponent(group.subject)}&jumlahmem=${group.participants.length}`)
+			buffu = await getBaper(`https://pecundang.herokuapp.com/docs/canvaswel?name=${encodeURIComponent(pushname)}&img_url=${data.display_url}&gcname=${encodeURIComponent(group.subject)}&jumlahmem=${group.participants.length}`)
 				benny.sendMessage(group.id, buffu, MessageType.image, {contextInfo: {mentionedJid: [num]}, caption: txtwl, quoted: { "key": { "participant": `${numbernye}`, "remoteJid": `${setgrup}`, "fromMe": false, "id": "B391837A58338BA8186C47E51FFDFD4A" }, "message": { "documentMessage": { "jpegThumbnail": buff, "mimetype": "application/octet-stream", "title": `*Welcome*`, "fileLength": "36", "pageCount": 0, "fileName": `_*Welcome*_` }}, "messageTimestamp": "1614069378", "status": "PENDING"}})
 				} else if (anu.action == 'remove') {
 					if (!welcome.includes(anu.jid)) return
@@ -43,7 +43,7 @@ benny.on('group-participants-update', async (anu) => {
 					fs.writeFileSync('janckuk.jpeg', datae, 'base64')
 					var imgbb = require('imgbb-uploader')
 					data = await imgbb("cedeb44b8d204947a6833ca1412ca77d", 'janckuk.jpeg')
-				buffu = await getBuffer(`https://api-self.herokuapp.com/docs/canvasbye?name=${encodeURIComponent(pushname)}&img_url=${data.display_url}&gcname=${encodeURIComponent(group.subject)}&jumlahmem=${group.participants.length}`)
+				buffu = await getBuffer(`https://pecundang.herokuapp.com/docs/canvasbye?name=${encodeURIComponent(pushname)}&img_url=${data.display_url}&gcname=${encodeURIComponent(group.subject)}&jumlahmem=${group.participants.length}`)
 				benny.sendMessage(group.id, buffu, MessageType.image, {contextInfo: {mentionedJid: [num]}, caption: teks})
 				}
 } catch (e) {
