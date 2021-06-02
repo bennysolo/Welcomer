@@ -1,4 +1,4 @@
-var imgbb = require('imgbb-uploader)
+var imgbb = require('imgbb-uploader')
 
 
 
